@@ -27,52 +27,6 @@ img {
 border: none;
 }
 
-.md { font-size: medium }
-.xl { font-size: xx-large }    /* Се */
-
-.tw {
-font-size: small;
-font-weight:bold;
-color:#24aadc;
-background-color:#d4f2fc;
-text-decoration: underline;
-}
-
-.de {
-font-size: x-small;
-font-weight:bold;
-color:#ffffff;
-background-color:#3274d0;
-}
-
-.fb {
-font-size: small;
-font-weight:bold;
-color:#3b5998;
-//background-color:#ebeef5;
-text-decoration: underline;
-}
-
-.bl {
-font-size: small;
-font-weight:bold;
-color:#32CD32;
-background-color:#f0fff0;
-text-decoration: underline;
-}
-
-.ni {
-font-size: small;
-font-weight:bold;
-color:#ffa500;
-background-color:#ffffe0;
-text-decoration: underline;
-}
-
-.er {
-font-size: small;
-font-weight:bold;
-color:#ff0808;
-//background-color:#ffcbcb;
-//text-decoration: underline;
+.github {
+    text-align: center;
 }

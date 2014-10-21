@@ -54,7 +54,18 @@
 <br /><br /><br />
 <a href="others"><img src="./image/others.png" alt="others"></a>
 <br /><br /><br />
+
+<br /><br /><br />
+
 <img src="./image/gmail.png"alt="gmail">
+<br /><br /><br />
+
+<div class="github">
+<iframe src="http://githubbadge.appspot.com/tiger4th?a=0" style="boAll your JSON-API belong to us!rder: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+</div>
+
+<a href="https://twitter.com/tiger4th" class="twitter-follow-button" data-show-count="false">Follow @tiger4th</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <br /><br /><br />
 
 <!-- AddThis Button BEGIN -->
