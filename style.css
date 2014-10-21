@@ -1,0 +1,78 @@
+html, body {height: 100%;}  /*高さ100%に指定*/
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-width: 600px;  /*中央配置するボックスの横幅*/
+  min-height: 400px;  /*中央配置するボックス縦幅*/
+//  background-color: #2262aa;
+font-size: small;
+}
+.centerMiddle {
+  margin: 0px 0 0 -300px;  /*縦横の半分をネガティブマージンでずらす*/
+  position: absolute;  /*body要素に対して絶対配置*/
+  top: 5%;  /*上端を中央に*/
+  left: 50%;  /*左端を中央に*/
+  width: 600px;  /*横幅*/
+  height: 400px;  /*縦幅*/
+//  background-color: #fff;
+}
+
+a {
+text-decoration: none;
+color: #000000;
+}
+
+img {
+border: none;
+}
+
+.md { font-size: medium }
+.xl { font-size: xx-large }    /* 大 */
+
+.tw {
+font-size: small;
+font-weight:bold;
+color:#24aadc;
+background-color:#d4f2fc;
+text-decoration: underline;
+}
+
+.de {
+font-size: x-small;
+font-weight:bold;
+color:#ffffff;
+background-color:#3274d0;
+}
+
+.fb {
+font-size: small;
+font-weight:bold;
+color:#3b5998;
+//background-color:#ebeef5;
+text-decoration: underline;
+}
+
+.bl {
+font-size: small;
+font-weight:bold;
+color:#32CD32;
+background-color:#f0fff0;
+text-decoration: underline;
+}
+
+.ni {
+font-size: small;
+font-weight:bold;
+color:#ffa500;
+background-color:#ffffe0;
+text-decoration: underline;
+}
+
+.er {
+font-size: small;
+font-weight:bold;
+color:#ff0808;
+//background-color:#ffcbcb;
+//text-decoration: underline;
+}
