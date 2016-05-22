@@ -27,6 +27,10 @@
 <meta name="msapplication-TileColor" content="#f2f2f2">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="tiger4th.com">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://tiger4th.com/" />
+<meta property="og:image" content="http://tiger4th.com/image/ogp.png" />
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-20423739-4']);
