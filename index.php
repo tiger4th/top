@@ -277,14 +277,17 @@
           </div>
           <div class="col-md-4 mt">
             <i class="fa fa-github"></i><br><br>
-            <a aria-label="Follow @tiger4th on GitHub" data-style="mega" href="https://github.com/tiger4th" class="github-button">Follow @tiger4th</a>
-            <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+            <a class="github-button" href="https://github.com/tiger4th" data-size="large" aria-label="Follow @tiger4th on GitHub">Follow @tiger4th</a>
+            <script async defer src="https://buttons.github.io/buttons.js"></script>
           </div>
           <div class="col-md-4 mt">
             <i class="fa fa-envelope"></i><br><br>
             <img src="image/gmail.png" alt="gmail" class="mail">
           </div>
         </div>
+      </div>
+      <div class="row centered">
+        <a href="https://www.wantedly.com/users/17827383" target="_blank" class="btn">PROFILE</a>
       </div>
     </div>
   </div>
