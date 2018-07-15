@@ -61,6 +61,23 @@
       <div class="centered">
         <div class="col-md-4">
           <div class="box">
+            <img src="image/onews.jpg" alt="ONEWS">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <a href="https://play.google.com/store/apps/details?id=com.tiger4th.onews" target="_blank">
+              <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+                   alt="Get it on Google Play"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt">
+      <div class="centered">
+        <div class="col-md-4">
+          <div class="box">
             <a href="http://tiger4th.com/jacket/">
               <img src="image/jacket.png" alt="新刊ジャケ買い！">
             </a>
@@ -68,7 +85,7 @@
         </div>
         <div class="col-md-4">
           <div class="box">
-            <a href="https://play.google.com/store/apps/details?id=com.tiger4th.jacket">
+            <a href="https://play.google.com/store/apps/details?id=com.tiger4th.jacket" target="_blank">
               <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
                    alt="Get it on Google Play"/>
             </a>
@@ -76,7 +93,7 @@
         </div>
         <div class="col-md-4">
           <div class="box">
-            <a href="https://itunes.apple.com/jp/app/xin-kanjake-maii!-manga-raitonoberuno/id1077352084?mt=8">
+            <a href="https://itunes.apple.com/jp/app/xin-kanjake-maii!-manga-raitonoberuno/id1077352084?mt=8" target="_blank">
               <img src="https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg"
                    alt="Download on the App Store"
                    width="200px" />
@@ -218,7 +235,7 @@
       <h3 class="ml">ATOM PACKAGE</h3>
       <div class="centered">
         <div class="col-md-4">
-          <a href="https://atom.io/users/tiger4th">
+          <a href="https://atom.io/users/tiger4th" target="_blank">
             <div class="card">
               <img src="image/atom.png" alt="atom">
             </div>
