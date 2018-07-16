@@ -290,6 +290,11 @@
         <a href="https://www.wantedly.com/users/17827383" target="_blank" class="btn">PROFILE</a>
       </div>
     </div>
+    <div class="centered">
+      <a href="vipstarcoin:VB1DghttNDZPmkQKfpgGiAJetcqcDzN4ZB?amount=100">
+        <img src="image/vips.png" alt="vips" class="vips">
+      </a>
+    </div>
   </div>
 
   <div class="share">

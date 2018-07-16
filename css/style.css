@@ -5,7 +5,7 @@ body {
   font-family: "Raleway";
   font-weight: 300;
   font-size: 16px;
-  color: #555;
+  color: #4e4e4e;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
 }
@@ -74,7 +74,7 @@ h2, h3 {
 
 .btn {
   color: #ffffff;
-  background-color: #7b7b7b;
+  background-color: #4e4e4e;
   padding: 10px 30px;
   margin-top: 50px;
   font-size: 18px;
@@ -97,6 +97,12 @@ h2, h3 {
 
 .mail {
   margin-top: 14px;
+}
+
+.vips {
+  margin-top: 50px;
+  width: 128px;
+  border: 1px solid #4e4e4e;
 }
 
 .share {
