@@ -287,7 +287,7 @@
         </div>
       </div>
       <div class="row centered">
-        <a href="https://www.wantedly.com/users/17827383" target="_blank" class="btn">PROFILE</a>
+        <a href="https://profile.coconala.com/users/167331" target="_blank" class="btn">PROFILE</a>
       </div>
     </div>
     <div class="centered">
