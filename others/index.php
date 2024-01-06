@@ -9,23 +9,18 @@
 <link rel="stylesheet" type="text/css" href="./style.css" />
 <link rel="shortcut icon" href="../image/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="icon" href="../image/favicon.ico" type="image/vnd.microsoft.icon" />
-<script type="text/javascript">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H9Q6GVJRWH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20423739-4']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+  gtag('config', 'G-H9Q6GVJRWH');
 </script>
 <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=65992480081c7f001970f80d&product=inline-share-buttons&source=platform" async="async"></script>
 </head>
 <body>
-
 <div class="centerMiddle"  align="center">
 <a href="http://tiger4th.com/"><img src="../image/tiger4th.png" alt="tiger4th.com"></a>
 <br /><br /><br />

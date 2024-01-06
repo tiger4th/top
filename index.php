@@ -31,16 +31,14 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tiger4th.com/">
 <meta property="og:image" content="https://tiger4th.com/image/ogp.png">
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20423739-4']);
-  _gaq.push(['_trackPageview']);
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H9Q6GVJRWH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  gtag('config', 'G-H9Q6GVJRWH');
 </script>
 <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=65992480081c7f001970f80d&product=inline-share-buttons&source=platform" async="async"></script>
 </head>
