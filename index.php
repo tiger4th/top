@@ -78,7 +78,7 @@
       <div class="centered">
         <div class="col-md-4">
           <div class="box">
-            <a href="https://tiger4th.com/jacket/">
+            <a href="https://tiger4th.com/jacket/" target="_blank">
               <img src="image/jacket.png" alt="新刊ジャケ買い！">
             </a>
           </div>
@@ -94,7 +94,7 @@
         <div class="col-md-4">
           <div class="box">
             <a href="https://itunes.apple.com/jp/app/xin-kanjake-maii!-manga-raitonoberuno/id1077352084?mt=8" target="_blank">
-              <img src="https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg"
+              <img src="image/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
                    alt="Download on the App Store"
                    width="200px" />
             </a>
@@ -114,24 +114,37 @@
 
   <div class="container mt">
     <div class="row mt">
+      <h3 class="ml">AI</h3>
+      <div class="centered">
+        <div class="col-md-4">
+          <a href="https://tiger4th.adalo.com/promptgram" target="_blank">
+            <div class="card">
+              <img src="image/promptgram.png" alt="promptgram">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
       <h3 class="ml">SHOPPING</h3>
       <div class="centered">
         <div class="col-md-4">
-          <a href="http://minrev.main.jp/">
+          <a href="https://minrev.main.jp/" target="_blank">
             <div class="card">
               <img src="image/minrev.png" alt="みんなの新着レビュー">
             </div>
           </a>
         </div>
         <div class="col-md-4">
-          <a href="http://minrev.main.jp/c/">
+          <a href="https://minrev.main.jp/c/" target="_blank">
             <div class="card">
               <img src="image/minrevc.png" alt="みんなの新着レビューC">
             </div>
           </a>
         </div>
         <div class="col-md-4">
-          <a href="https://tiger4th.com/yamazon/">
+          <a href="https://tiger4th.com/yamazon/" target="_blank">
             <div class="card">
               <img src="image/yamazon.png" alt="Yamazon">
             </div>
@@ -144,21 +157,21 @@
       <h3 class="ml">AUCTION</h3>
       <div class="centered">
         <div class="col-md-4">
-          <a href="https://tiger4th.com/sga/">
+          <a href="https://tiger4th.com/sga/" target="_blank">
             <div class="card">
               <img src="image/sga.png" alt="ソーシャルゲームオークション">
             </div>
           </a>
         </div>
         <div class="col-md-4">
-          <a href="https://tiger4th.com/auc/">
+          <a href="https://tiger4th.com/auc/" target="_blank">
             <div class="card">
               <img src="image/auc.png" alt="オークションシリーズ">
             </div>
           </a>
         </div>
         <div class="col-md-4">
-          <a href="https://tiger4th.com/sword/">
+          <a href="https://tiger4th.com/sword/" target="_blank">
             <div class="card">
               <img src="image/sword.png" alt="刀剣オークション">
             </div>
@@ -171,21 +184,21 @@
       <h3 class="ml">NEWS</h3>
       <div class="centered">
         <div class="col-md-4">
-          <a href="https://tiger4th.com/hatebu/">
+          <a href="https://tiger4th.com/hatebu/" target="_blank">
             <div class="card">
               <img src="image/hatebu.png" alt="はてぶ新聞">
             </div>
           </a>
         </div>
         <div class="col-md-4">
-          <a href="https://tiger4th.com/hatebu_ex/">
+          <a href="https://tiger4th.com/hatebu_ex/" target="_blank">
             <div class="card">
               <img src="image/hatebu_ex.png" alt="はてぶ新聞 速報版">
             </div>
           </a>
         </div>
         <div class="col-md-4">
-          <a href="https://tiger4th.com/snews/">
+          <a href="https://tiger4th.com/snews/" target="_blank">
             <div class="card">
               <img src="image/snews.png" alt="Social Newspaper">
             </div>
@@ -195,24 +208,24 @@
     </div>
 
     <div class="row">
-      <h3 class="ml">BUZZ</h3>
+      <h3 class="ml">TREND</h3>
       <div class="centered">
         <div class="col-md-4">
-          <a href="https://tiger4th.com/sc/">
+          <a href="https://tiger4th.com/sc/" target="_blank">
             <div class="card">
               <img src="image/sc.png" alt="social checker">
             </div>
           </a>
         </div>
         <div class="col-md-4">
-          <a href="https://tiger4th.com/anibuzz/">
+          <a href="https://tiger4th.com/anibuzz/" target="_blank">
             <div class="card">
               <img src="image/anibuzz.png" alt="anibuzz">
             </div>
           </a>
         </div>
         <div class="col-md-4">
-          <a href="https://tiger4th.com/drabuzz/">
+          <a href="https://tiger4th.com/drabuzz/" target="_blank">
             <div class="card">
               <img src="image/drabuzz.png" alt="drabuzz">
             </div>
@@ -235,7 +248,7 @@
       <h3 class="ml">ATOM PACKAGE</h3>
       <div class="centered">
         <div class="col-md-4">
-          <a href="https://atom.io/users/tiger4th" target="_blank">
+          <a href="https://github.com/tiger4th/vertical-tabs" target="_blank">
             <div class="card">
               <img src="image/atom.png" alt="atom">
             </div>
@@ -288,6 +301,9 @@
       </div>
       <div class="row centered">
         <a href="https://profile.coconala.com/users/167331" target="_blank" class="btn">PROFILE</a>
+      </div>
+      <div class="row centered mt">
+        <a class="coconala-widget" href="https://coconala.com/services/200062" data-service_id="200062" data-width="300" data-comment="1" data-invite="1" data-user_id="167331">あなたのウェブサイトの問題点・改善点を探します HTML, CSS, JSから文言、デザイン、UI/UXまで</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://coconala.com/js/coconala_widget.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','coconala-wjs');</script>
       </div>
     </div>
     <div class="centered">
