@@ -22,6 +22,7 @@
   })();
 
 </script>
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=65992480081c7f001970f80d&product=inline-share-buttons&source=platform" async="async"></script>
 </head>
 <body>
 
@@ -77,10 +78,7 @@
 <a href="http://tiger4th.com/">戻る</a><br />
 <br />
 
-<!-- AddThis Button BEGIN -->
-<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-4e3ab77310f2fc55"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e3ab77310f2fc55"></script>
-<!-- AddThis Button END -->
+<div class="sharethis-inline-share-buttons"></div>
 <br /><br /><br />
 </div>
 </body>

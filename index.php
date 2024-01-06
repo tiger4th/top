@@ -42,6 +42,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=65992480081c7f001970f80d&product=inline-share-buttons&source=platform" async="async"></script>
 </head>
 <body>
   <div class="logo">
@@ -314,8 +315,7 @@
   </div>
 
   <div class="share">
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e3ab77310f2fc55" async="async"></script>
-    <div class="addthis_sharing_toolbox"></div>
+    <div class="sharethis-inline-share-buttons"></div>
   </div>
 </body>
 </html>
