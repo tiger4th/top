@@ -312,6 +312,23 @@
     </div>
   </div>
 
+  <div class="ad">
+    <div class="centered">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8381218834058340"
+       crossorigin="anonymous"></script>
+      <!-- topページ下 -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8381218834058340"
+           data-ad-slot="2338856638"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+
   <div class="share">
     <div class="sharethis-inline-share-buttons"></div>
   </div>
