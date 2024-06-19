@@ -6,7 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>tiger4th.com</title>
 <link href="./css/bootstrap.css" rel="stylesheet">
-<link href="./css/font-awesome.min.css" rel="stylesheet">
+<link href="./fontawesome/css/fontawesome.css" rel="stylesheet" />
+<link href="./fontawesome/css/brands.css" rel="stylesheet" />
+<link href="./fontawesome/css/regular.css" rel="stylesheet" />
 <link href="./css/style.css" rel="stylesheet">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -56,6 +58,37 @@
   </div>
 
   <div class="container mt">
+    <div class="row mt">
+      <div class="centered">
+        <div class="col-md-4">
+          <div class="box">
+            <img src="image/giin.png" alt="GIIN">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box -app">
+            <a href="https://play.google.com/store/apps/details?id=com.tiger4th.giin" target="_blank" class="btn-app">
+              <i class="fa-brands fa-google-play"></i>
+              <div>
+                <span class="btn-app-text-small">GET IT ON</span><br>
+                <span class="btn-app-text">Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box -app">
+            <a href="https://tiger4th.com/giin/" target="_blank" class="btn-app">
+              <i class="fa-brands fa-apple"></i>
+              <div>
+                <span class="btn-app-text-small">Download On The</span><br>
+                <span class="btn-app-text">Web App</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row mt">
       <div class="centered">
         <div class="col-md-4">
@@ -283,17 +316,17 @@
       <div class="row centered">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="col-md-4 mt">
-            <i class="fa fa-twitter"></i><br><br>
+            <i class="fa-brands fa-x-twitter"></i><br><br>
             <a href="https://twitter.com/tiger4th" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @tiger4th</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
           </div>
           <div class="col-md-4 mt">
-            <i class="fa fa-github"></i><br><br>
+            <i class="fa-brands fa-github"></i><br><br>
             <a class="github-button" href="https://github.com/tiger4th" data-size="large" aria-label="Follow @tiger4th on GitHub">Follow @tiger4th</a>
             <script async defer src="https://buttons.github.io/buttons.js"></script>
           </div>
           <div class="col-md-4 mt">
-            <i class="fa fa-envelope"></i><br><br>
+            <i class="fa-regular fa-envelope"></i><br><br>
             <img src="image/gmail.png" alt="gmail" class="mail">
           </div>
         </div>
