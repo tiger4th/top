@@ -81,7 +81,7 @@
             <a href="https://tiger4th.com/giin/" target="_blank" class="btn-app">
               <i class="fa-brands fa-apple"></i>
               <div>
-                <span class="btn-app-text-small">Download On The</span><br>
+                <span class="btn-app-text-small">Download on the</span><br>
                 <span class="btn-app-text">Web App</span>
               </div>
             </a>

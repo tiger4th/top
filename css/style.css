@@ -117,13 +117,13 @@ h2, h3 {
   color: #fff;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 10px;
 
   i {
-    font-size: 30px;
+    font-size: 36px;
   }
   .btn-app-text {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 400;
   }
   .btn-app-text-small {
