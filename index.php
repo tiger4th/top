@@ -9,6 +9,7 @@
 <link href="./fontawesome/css/fontawesome.css" rel="stylesheet" />
 <link href="./fontawesome/css/brands.css" rel="stylesheet" />
 <link href="./fontawesome/css/regular.css" rel="stylesheet" />
+<link href="./fontawesome/css/solid.css" rel="stylesheet" />
 <link href="./css/style.css" rel="stylesheet">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -62,7 +63,9 @@
       <div class="centered">
         <div class="col-md-4">
           <div class="box">
-            <img src="image/giin.png" alt="GIIN">
+            <a href="https://tiger4th.com/lp/giin/" target="_blank">
+              <img src="image/giin.png" alt="GIIN">
+            </a>
           </div>
         </div>
         <div class="col-md-4">
@@ -93,17 +96,31 @@
       <div class="centered">
         <div class="col-md-4">
           <div class="box">
-            <img src="image/onews.jpg" alt="ONEWS">
+            <a href="https://www.youtube.com/live/lsujyuPHnxE?si=DpBpFKjRRNSnfrzw&t=2814" target="_blank">
+              <img src="image/onews.jpg" alt="ONEWS">
+            </a>
           </div>
         </div>
         <div class="col-md-4">
+          <div class="box -app">
+            <a href="https://play.google.com/store/apps/details?id=com.tiger4th.onews" target="_blank" class="btn-app -closed">
+              <i class="fa-brands fa-google-play"></i>
+              <div>
+                <span class="btn-app-text-small">GET IT ON</span><br>
+                <span class="btn-app-text">Google Play</span>
+              </div>
+              <div class="app-closed"></div>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="col-md-4">
           <div class="box">
             <a href="https://play.google.com/store/apps/details?id=com.tiger4th.onews" target="_blank">
               <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
                    alt="Get it on Google Play"/>
             </a>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="row mt">
@@ -116,6 +133,17 @@
           </div>
         </div>
         <div class="col-md-4">
+          <div class="box -app">
+            <a href="https://tiger4th.com/jacket/" target="_blank" class="btn-app">
+              <i class="fa-solid fa-globe"></i>
+              <div>
+                <span class="btn-app-text-small">Download on the</span><br>
+                <span class="btn-app-text">Web App</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="col-md-4">
           <div class="box">
             <a href="https://play.google.com/store/apps/details?id=com.tiger4th.jacket" target="_blank">
               <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
@@ -131,7 +159,7 @@
                    width="200px" />
             </a>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -165,6 +193,7 @@
           <a href="https://minrev.main.jp/" target="_blank">
             <div class="card">
               <img src="image/minrev.png" alt="みんなの新着レビュー">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -172,6 +201,7 @@
           <a href="https://minrev.main.jp/c/" target="_blank">
             <div class="card">
               <img src="image/minrevc.png" alt="みんなの新着レビューC">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -179,6 +209,7 @@
           <a href="https://tiger4th.com/yamazon/" target="_blank">
             <div class="card">
               <img src="image/yamazon.png" alt="Yamazon">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -192,6 +223,7 @@
           <a href="https://tiger4th.com/sga/" target="_blank">
             <div class="card">
               <img src="image/sga.png" alt="ソーシャルゲームオークション">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -199,6 +231,7 @@
           <a href="https://tiger4th.com/auc/" target="_blank">
             <div class="card">
               <img src="image/auc.png" alt="オークションシリーズ">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -206,6 +239,7 @@
           <a href="https://tiger4th.com/sword/" target="_blank">
             <div class="card">
               <img src="image/sword.png" alt="刀剣オークション">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -226,6 +260,7 @@
           <a href="https://tiger4th.com/hatebu_ex/" target="_blank">
             <div class="card">
               <img src="image/hatebu_ex.png" alt="はてぶ新聞 速報版">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -233,6 +268,7 @@
           <a href="https://tiger4th.com/snews/" target="_blank">
             <div class="card">
               <img src="image/snews.png" alt="Social Newspaper">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -246,6 +282,7 @@
           <a href="https://tiger4th.com/sc/" target="_blank">
             <div class="card">
               <img src="image/sc.png" alt="social checker">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -253,6 +290,7 @@
           <a href="https://tiger4th.com/anibuzz/" target="_blank">
             <div class="card">
               <img src="image/anibuzz.png" alt="anibuzz">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -260,6 +298,7 @@
           <a href="https://tiger4th.com/drabuzz/" target="_blank">
             <div class="card">
               <img src="image/drabuzz.png" alt="drabuzz">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
@@ -283,6 +322,7 @@
           <a href="https://github.com/tiger4th/vertical-tabs" target="_blank">
             <div class="card">
               <img src="image/atom.png" alt="atom">
+              <div class="closed"></div>
             </div>
           </a>
         </div>
