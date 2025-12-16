@@ -344,6 +344,13 @@
       <h3 class="ml">CHROME EXTENSION</h3>
       <div class="centered">
         <div class="col-md-4">
+          <a href="https://chromewebstore.google.com/detail/tab-harbor-auto-organize/djjalhkkgnanpmofdfaifnmbkahicagh" target="_blank">
+            <div class="card">
+              <img src="image/tab_harbor.png" alt="Tab Harbor">
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
           <a href="https://chromewebstore.google.com/detail/%E3%82%B3%E3%82%B3%E3%83%8A%E3%83%A9ai%E5%87%BA%E5%93%81%E3%83%81%E3%82%A7%E3%83%83%E3%82%AB%E3%83%BC/ljjeinchaocpdcpjpgfoepnjogoahnop" target="_blank">
             <div class="card">
               <img src="image/coconala_ai_listing_checker.png" alt="ココナラAI出品チェッカー">
@@ -415,11 +422,6 @@
       <div class="row centered mt">
         <a class="coconala-widget" href="https://coconala.com/services/200062" data-service_id="200062" data-width="300" data-comment="1" data-invite="1" data-user_id="167331">あなたのウェブサイトの問題点・改善点を探します HTML, CSS, JSから文言、デザイン、UI/UXまで</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://coconala.com/js/coconala_widget.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','coconala-wjs');</script>
       </div>
-    </div>
-    <div class="centered">
-      <a href="vipstarcoin:VB1DghttNDZPmkQKfpgGiAJetcqcDzN4ZB?amount=100">
-        <img src="image/vips.png" alt="vips" class="vips">
-      </a>
     </div>
   </div>
 
