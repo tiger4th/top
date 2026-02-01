@@ -14,7 +14,8 @@ a:hover {
   opacity: .8;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: "Raleway";
   font-weight: 300;
   color: #333;
@@ -37,6 +38,7 @@ h2, h3 {
   text-align: center;
   margin-top: 50px;
 }
+
 .logo img {
   width: 300px;
 }
@@ -46,6 +48,7 @@ h2, h3 {
   padding: 10px 0;
   margin-top: 50px;
 }
+
 .title h2 {
   color: white;
 }
@@ -60,6 +63,16 @@ h2, h3 {
   transform: translateY(-50%);
 }
 
+.app-image {
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3) inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.app-image:hover {
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
+
 .card {
   position: relative;
   background-color: #fff;
@@ -70,10 +83,12 @@ h2, h3 {
   border-radius: 10px;
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 }
+
 .card:hover {
   box-shadow: none;
   border: 1px solid #ccc;
 }
+
 .closed {
   position: absolute;
   color: #fff;
@@ -81,10 +96,11 @@ h2, h3 {
   width: 100%;
   bottom: 0;
   border-radius: 0 0 10px 10px;
-  
+
 }
+
 .closed::after {
- content: 'closed';
+  content: 'closed';
 }
 
 .box {
@@ -103,6 +119,7 @@ h2, h3 {
   border: 5px solid transparent;
   border-radius: 10px;
 }
+
 .btn:hover,
 .btn:focus {
   color: #ffffff;
@@ -119,6 +136,7 @@ h2, h3 {
     text-decoration: none;
   }
 }
+
 .btn-app {
   position: relative;
   background-color: #000;
@@ -136,19 +154,23 @@ h2, h3 {
   i {
     font-size: 36px;
   }
+
   .btn-app-text {
     font-size: 24px;
     font-weight: 400;
   }
+
   .btn-app-text-small {
     font-size: 12px;
     font-weight: 400;
   }
 }
+
 .btn-app.-closed {
   color: #ccc !important;
   background-color: #333;
 }
+
 .app-closed {
   position: absolute;
   color: #000;
@@ -160,8 +182,9 @@ h2, h3 {
   border-radius: 0 0 10px 10px;
   text-align: center;
 }
+
 .app-closed::after {
- content: 'closed';
+  content: 'closed';
 }
 
 .social {
@@ -169,6 +192,7 @@ h2, h3 {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .social i {
   font-size: 50px;
 }
