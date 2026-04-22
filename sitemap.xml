@@ -6,4 +6,7 @@
   <sitemap>
     <loc>https://tiger4th.com/sitemap-jacket.xml</loc>
   </sitemap>
+  <sitemap>
+    <loc>https://tiger4th.com/aitem-pick/sitemap.xml</loc>
+  </sitemap>
 </sitemapindex>
