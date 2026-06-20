@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>運営者情報・お問い合わせ | tiger4th.com</title>
+  <link href="./css/bootstrap.css" rel="stylesheet">
+  <link href="./fontawesome/css/fontawesome.css" rel="stylesheet" />
+  <link href="./fontawesome/css/brands.css" rel="stylesheet" />
+  <link href="./fontawesome/css/regular.css" rel="stylesheet" />
+  <link href="./fontawesome/css/solid.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#f2f2f2">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="運営者情報・お問い合わせ | tiger4th.com">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tiger4th.com/about.html">
+  <meta property="og:image" content="https://tiger4th.com/image/ogp.png">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9Q6GVJRWH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-H9Q6GVJRWH');
+  </script>
+  <style>
+    /* フォームや個別ページ用の追加スタイル */
+    .about-section {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-title {
+      font-size: 22px;
+      font-weight: 700;
+      border-bottom: 2px solid #4e4e4e;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .profile-img {
+      max-width: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      font-weight: 600;
+      color: #333;
+    }
+
+    .form-control {
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      box-shadow: none;
+      height: auto;
+      padding: 10px 15px;
+    }
+
+    .form-control:focus {
+      border-color: #4e4e4e;
+      box-shadow: none;
+    }
+
+    .btn-submit {
+      background-color: #4e4e4e;
+      color: #fff;
+      border: none;
+      padding: 12px 30px;
+      font-size: 16px;
+      border-radius: 6px;
+      transition: background-color 0.2s;
+      width: 100%;
+    }
+
+    .btn-submit:hover {
+      background-color: #333;
+      color: #fff;
+      opacity: 0.9;
+    }
+
+    .text-danger {
+      color: #d9534f;
+    }
+
+    .success-message {
+      display: none;
+      background-color: #dff0d8;
+      color: #3c763d;
+      border: 1px solid #d6e9c6;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .back-to-top {
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+
+    .back-to-top a {
+      color: #4e4e4e;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logo">
+    <h1><a href="index.html"><img src="image/logo.png" alt="tiger4th.com"></a></h1>
+  </div>
+
+  <div class="title">
+    <div class="container">
+      <div class="row centered">
+        <h2>ABOUT & CONTACT</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt">
+    <!-- 送信成功メッセージ表示エリア -->
+    <div id="successAlert" class="success-message">
+      お問い合わせを受け付けました。メッセージありがとうございました。
+    </div>
+
+    <div class="row mt">
+      <!-- 運営者情報 (ABOUT) -->
+      <div class="col-md-6">
+        <div class="about-section">
+          <h3 class="about-title"><i class="fa-solid fa-user"></i> 運営者情報</h3>
+          <div class="text-center" style="text-align: center; margin-bottom: 20px;">
+            <img src="image/android-chrome-192x192.png" alt="tiger4th" class="profile-img"
+              style="border: 1px solid #ddd; background: #fff; padding: 5px;">
+            <h4 style="font-weight: 700; margin-top: 10px;">tiger4th (タイガーフォース)</h4>
+          </div>
+          <p>
+            個人開発者として、Webサービス、スマートフォンアプリ（iOS / Android）、Chrome拡張機能などの企画・開発・運営を行っています。
+            「日常に少しの便利さと楽しさをプラスする」をモットーに、シンプルで使いやすいプロダクト作りを目指しています。
+          </p>
+          <hr>
+          <h4 style="font-weight: 700; margin-top: 20px;">主な活動・スキル</h4>
+          <ul>
+            <li><strong>モバイルアプリ開発:</strong> iOS (Swift), Android (Kotlin / Flutter)</li>
+            <li><strong>Webサービス開発:</strong> HTML, CSS, JavaScript, PHP, AI連携ツール</li>
+            <li><strong>ブラウザ拡張機能:</strong> Chrome Extensions</li>
+          </ul>
+          <hr>
+          <h4 style="font-weight: 700; margin-top: 20px;">リンク</h4>
+          <div style="margin-top: 15px;">
+            <a href="https://twitter.com/tiger4th" target="_blank" class="btn-app"
+              style="width: auto; padding: 0 15px; height: 50px; margin-bottom: 10px; margin-right: 5px; text-decoration: none;">
+              <i class="fa-brands fa-x-twitter" style="font-size: 24px;"></i>
+              <span style="font-size: 14px;">X (Twitter)</span>
+            </a>
+            <a href="https://github.com/tiger4th" target="_blank" class="btn-app"
+              style="width: auto; padding: 0 15px; height: 50px; margin-bottom: 10px; margin-right: 5px; text-decoration: none;">
+              <i class="fa-brands fa-github" style="font-size: 24px;"></i>
+              <span style="font-size: 14px;">GitHub</span>
+            </a>
+            <a href="https://profile.coconala.com/users/167331" target="_blank" class="btn-app"
+              style="width: auto; padding: 0 15px; height: 50px; margin-bottom: 10px; text-decoration: none;">
+              <i class="fa-solid fa-briefcase" style="font-size: 24px;"></i>
+              <span style="font-size: 14px;">coconala</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- お問い合わせフォーム (CONTACT) -->
+      <div class="col-md-6">
+        <div class="about-section">
+          <h3 class="about-title"><i class="fa-regular fa-envelope"></i> お問い合わせ</h3>
+          <p style="margin-bottom: 20px; font-size: 14px; color: #666;">
+            製品に関するご質問、お仕事のご依頼、その他お問い合わせは下記のフォームよりご連絡ください。
+            通常、数日以内にご返信いたします。
+          </p>
+
+          <!-- 
+            ※フォーム送信先には「Static Forms」を利用しています。
+            本番環境で動作させるには、 https://www.staticforms.xyz/ でアクセスキー(Access Key)を取得し、
+            下記の `accessKey` の `value` に設定してください。
+          -->
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="sf_8ad226b17a0d9c21a0588556">
+            <input type="hidden" name="redirectTo" value="https://tiger4th.com/about.html?status=success">
+
+            <div class="form-group">
+              <label for="name">お名前 <span class="text-danger">*</span></label>
+              <input type="text" name="name" id="name" class="form-control" placeholder="山田 太郎" required>
+            </div>
+
+            <div class="form-group" style="margin-top: 15px;">
+              <label for="email">メールアドレス <span class="text-danger">*</span></label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="example@gmail.com" required>
+            </div>
+
+            <div class="form-group" style="margin-top: 15px;">
+              <label for="subject">件名</label>
+              <input type="text" name="subject" id="subject" class="form-control" placeholder="お問い合わせ内容の件名">
+            </div>
+
+            <div class="form-group" style="margin-top: 15px;">
+              <label for="message">メッセージ内容 <span class="text-danger">*</span></label>
+              <textarea name="message" id="message" rows="6" class="form-control" placeholder="こちらにお問い合わせ内容をご入力ください"
+                required style="resize: vertical;"></textarea>
+            </div>
+
+            <input type="text" name="honeypot" style="display: none;">
+
+            <div style="margin-top: 25px;">
+              <button type="submit" class="btn-submit">送信する</button>
+            </div>
+          </form>
+
+          <div style="margin-top: 25px; border-top: 1px dashed #ccc; padding-top: 15px; font-size: 13px; color: #777;">
+            <p>※フォームから送信できない場合は、以下の宛先へ直接ご連絡ください。</p>
+            <ul>
+              <li><strong>X (Twitter) DM:</strong> <a href="https://twitter.com/tiger4th" target="_blank">@tiger4th</a>
+              </li>
+              <li><strong>E-mail:</strong> <img src="image/gmail.png" alt="gmail"
+                  style="height: 18px; vertical-align: middle; max-width: none; top: auto; transform: none; position: static;">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- トップに戻るリンク -->
+    <div class="row centered back-to-top">
+      <a href="index.html"><i class="fa-solid fa-arrow-left"></i> トップページへ戻る</a>
+    </div>
+  </div>
+
+  <div class="share" style="margin-top: 50px;">
+    <div class="sharethis-inline-share-buttons"></div>
+  </div>
+
+  <script>
+    // URLのクエリパラメータをチェックして、送信完了メッセージを表示する
+    window.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('status') === 'success') {
+        const alertBox = document.getElementById('successAlert');
+        if (alertBox) {
+          alertBox.style.display = 'block';
+          alertBox.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
