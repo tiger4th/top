@@ -1,0 +1,17 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "ST9EZYBB7Y.com.tiger4th.giin"
+                ],
+                "components": [
+                    {
+                        "/": "/giin/*",
+                        "comment": "Matches all links under /giin/"
+                    }
+                ]
+            }
+        ]
+    }
+}

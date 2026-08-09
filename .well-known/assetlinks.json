@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.tiger4th.giin",
+            "sha256_cert_fingerprints": [
+                "74:02:B1:BE:48:0F:CD:F2:31:3E:4B:22:F0:DA:BF:43:27:CA:82:43:F0:74:7B:F6:A9:D3:15:02:96:20:98:DF",
+                "55:2B:73:C1:DC:5D:85:F7:6E:27:5F:B4:63:8A:F6:34:97:AF:52:0C:49:4F:4F:F6:90:F7:BA:66:B8:9E:77:38"
+            ]
+        }
+    }
+]
